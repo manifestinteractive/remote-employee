@@ -44,6 +44,8 @@ Part List
 Hardware Assembly
 ---
 
+**[⇧ back to top](#table-of-contents)**
+
 There are really good writeups by Adafruit on how to assemble the hardware:
 
 * [Attach MP3 Shield](https://learn.adafruit.com/adafruit-music-maker-shield-vs1053-mp3-wav-wave-ogg-vorbis-player?view=all)
@@ -71,6 +73,8 @@ Since the `MP3` shield will be placed directly on top of the `ARD` Arduino, you 
 Recording Voices
 ---
 
+**[⇧ back to top](#table-of-contents)**
+
 The `MP3` device can hold up to 2GB of audio files so you can record as many as you want to fill up this 2GB card ( which is the largest size this MP3 shield supports ).  The MP3 shield also has a weird caveat where the file names must be 8 characters in length. For that reason I was naming the files `voice_010.mp3`.  I also chose to start the file naming `010` because of how Arduino Random numbers work.  So you should likely avoid the headache and use this same convention.
 
 As far as the how to actually record the audio files, you can use your Smart Phone to just record a few phrases you think would be fun to have.  Just keep in mind that you want to not have a whole lot of noise in the background, and you will likely want to make sure you are only recording what you want in the MP3 file.
@@ -90,6 +94,8 @@ Once you have all the hardware installed, you just need to open the [./sketch/sk
 
 Making a Cutout
 ---
+
+**[⇧ back to top](#table-of-contents)**
 
 This part is up to you, but you should have fun with it !!!
 
