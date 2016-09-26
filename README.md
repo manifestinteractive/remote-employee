@@ -1,7 +1,15 @@
 Remote Employee
 ===
 
-Intro Text Coming Soon
+If you are a Remote Employee, like me, you likely are missed by your fellow employees.  Why not give them the next best thing? A super over the top Cutout of you they can stick in their office to talk to whenever they feel like it !!!
+
+![cutout_preview](images/cutout_preview.jpg "cutout_preview")
+
+__Your Cutout will help / annoy your fellow coworkers by:__
+
+* Listening to what they have to say
+* Having a Random Response
+
 
 Table of Contents
 ---
@@ -11,6 +19,7 @@ Table of Contents
 * [Wiring Instructions](#wiring-instructions)
 * [Recording Voices](#recording-voices)
 * [Software Installation](#software-installation)
+* [Making a Cutout](#making-a-cutout)
 * [Using your Remote Employee](#using-your-remote-employee)
 
 
@@ -31,6 +40,7 @@ Part List
 * [Micro SD Card ( 2GB )](http://www.amazon.com/Sandisk-2GB-Micro-Sd-Card/dp/B000N3LL02) _$7.95_
 * [Arduino Project Enclosure](https://www.amazon.com/Arduino-06RBARD16-Box/dp/B003ZKJNVY) _$13.63_
 
+
 Hardware Assembly
 ---
 
@@ -38,6 +48,7 @@ There are really good writeups by Adafruit on how to assemble the hardware:
 
 * [Attach MP3 Shield](https://learn.adafruit.com/adafruit-music-maker-shield-vs1053-mp3-wav-wave-ogg-vorbis-player?view=all)
 * [Attach Microphone](https://learn.adafruit.com/3d-printed-led-microphone-flag?view=all)
+
 
 Wiring Instructions
 ---
@@ -56,6 +67,7 @@ Since the `MP3` shield will be placed directly on top of the `ARD` Arduino, you 
 
 ![wiring](fritzing/sketch.png "wiring")
 
+
 Recording Voices
 ---
 
@@ -65,6 +77,7 @@ As far as the how to actually record the audio files, you can use your Smart Pho
 
 There is a Free online audio converter at [http://media.io](http://media.io) if you need to convert your audio files.
 
+
 Software Installation
 ---
 
@@ -73,6 +86,18 @@ Software Installation
 Before you install the software onto your Arduino Uno, you will want to copy all the audio files in the [./sounds](sounds) folder into the root of your Micro SD Card, then insert the SD Card into the MP3 Shield.  Make sure not to put the files in any folders on the SD card.  They should be directly in the root of the card.
 
 Once you have all the hardware installed, you just need to open the [./sketch/sketch.ino](sketch/sketch.ino) file in your [Arduino Code Editor](https://www.arduino.cc/en/Main/Software).  Now you just need to upload the sketch to your Arduino Uno.
+
+
+Making a Cutout
+---
+
+This part is up to you, but you should have fun with it !!!
+
+* You will need a camera that can take super high resolution pictures
+* Take a LOT of different pictures and find the one you like best
+* Use a Photo Editing program like PhotoShop and crop out the background so that only you are left
+* Ask a Sign Making Company in your area to print your image using Corrugated PVC, or some other sturdy material ( if you use Cardboard it will get destroyed pretty quickly ) and ask them to make the cutout to the size you need ( if you are doing Life Size, give them your height )
+* Once the cutout is complete, attach the hardware to the back of the cutout and add some power !!!
 
 
 Using your Remote Employee
