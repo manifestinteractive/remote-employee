@@ -105,6 +105,13 @@ This part is up to you, but you should have fun with it !!!
 * Ask a Sign Making Company in your area to print your image using Corrugated PVC, or some other sturdy material ( if you use Cardboard it will get destroyed pretty quickly ) and ask them to make the cutout to the size you need ( if you are doing Life Size, give them your height )
 * Once the cutout is complete, attach the hardware to the back of the cutout and add some power !!!
 
+**Here was my process ( Total $85 ):**
+
+* I went [FASTSIGNS](https://www.fastsigns.com)
+* Made image 300 DPI at Actual Printed Dimensions ( 36" x 36" )
+* Used Coroplast Board with Matte Lamination
+* Purchases Easel Backing to make Cutout stand up
+
 
 Using your Remote Employee
 ---
