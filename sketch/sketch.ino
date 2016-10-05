@@ -36,7 +36,7 @@ unsigned int numMP3files = 0;
 
 boolean initialized = false;        // disable actual audio playback for development
 boolean mute = false;               // disable actual audio playback for development
-boolean debug = true;               // use this to debug output in serial monitor
+boolean debug = false;              // use this to debug output in serial monitor
 boolean debugLevels = false;        // whether to debug microphone levels
 boolean startedTalking = false;     // person started talking above talkThreshold
 boolean finishedTalking = false;    // person finished talking above talkThreshold
