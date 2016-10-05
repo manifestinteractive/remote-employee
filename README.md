@@ -75,7 +75,7 @@ Recording Voices
 
 **[⇧ back to top](#table-of-contents)**
 
-The `MP3` device can hold up to 2GB of audio files so you can record as many as you want to fill up this 2GB card ( which is the largest size this MP3 shield supports ).  The MP3 shield also has a weird caveat where the file names must be 8 characters in length. For that reason I was naming the files `voice_010.mp3`.  I also chose to start the file naming `010` because of how Arduino Random numbers work.  So you should likely avoid the headache and use this same convention.
+The `MP3` device can hold up to 2GB of audio files so you can record as many as you want to fill up this 2GB card ( which is the largest size this MP3 shield supports ).  The MP3 shield also has a weird caveat where the file names must be exactly 8 characters in length. For that reason I was naming the files `00000001.mp3` - `99999999.mp3`.  The software on the Arduino will automatically figure out how many files you have on the SD card.  So as long as you start the numbering with `00000001.mp3` you can have up to 99,999,999 mp3 files ... which is WAY WAY more files thant you can actually put on a 2GB card.
 
 As far as the how to actually record the audio files, you can use your Smart Phone to just record a few phrases you think would be fun to have.  Just keep in mind that you want to not have a whole lot of noise in the background, and you will likely want to make sure you are only recording what you want in the MP3 file.
 
@@ -105,12 +105,11 @@ This part is up to you, but you should have fun with it !!!
 * Ask a Sign Making Company in your area to print your image using Corrugated PVC, or some other sturdy material ( if you use Cardboard it will get destroyed pretty quickly ) and ask them to make the cutout to the size you need ( if you are doing Life Size, give them your height )
 * Once the cutout is complete, attach the hardware to the back of the cutout and add some power !!!
 
-**Here was my process ( Total $85 ):**
+**Here was my process ( Total $120 ):**
 
 * I went [FASTSIGNS](https://www.fastsigns.com)
-* Made image 300 DPI at Actual Printed Dimensions ( 36" x 36" )
-* Used Coroplast Board with Matte Lamination
-* Purchases Easel Backing to make Cutout stand up
+* Made image 300 DPI at Actual Printed Dimensions ( 28" x 28" )
+* Ordered Vinyl Printed PVC Easel Backed Tabletop Cut Out with a Contour Cut
 
 
 Using your Remote Employee
